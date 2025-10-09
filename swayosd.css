@@ -1,0 +1,24 @@
+@define-color background-color #1A101C;
+@define-color border-color #FF6F9C;
+@define-color label #EEDDEE;
+@define-color image #EEDDEE;
+@define-color progress #D2435B;
+
+/* Optional: Define a style for the OSD bar itself */
+#osd {
+    background-color: @background-color;
+    border-color: @border-color;
+    border-radius: 8px; /* Optional: adds rounded corners */
+    border-width: 2px;
+}
+
+/* Optional: Define the style for the label/text */
+#label {
+    color: @label;
+    padding: 10px;
+}
+
+/* Optional: Define the style for the progress bar */
+#progress {
+    background-color: @progress;
+}

@@ -1,0 +1,97 @@
+# Omarchy Alacritty Light Theme - Inspired by Zero Two Wallpaper (Light/Moody)
+
+[colors.primary]
+# Soft Off-White/Pink from light reflections on hair
+background = "#EEDDEE"
+# Very dark maroon/purple from image shadows
+foreground = "#1A101C"
+dim_foreground = "#47464F" # Soft Dark Grey
+bright_foreground = "#1A101C"
+
+[colors.cursor]
+# Dark Red (Jacket) for contrast on light background
+text = "#EEDDEE" # Contrast with cursor color
+cursor = "#D2435B"
+
+[colors.vi_mode_cursor]
+# Lavender/Purple from cherry blossoms
+text = "#EEDDEE"
+cursor = "#936B9D"
+
+[colors.search.matches]
+# Dark text on light background
+foreground = "#1A101C"
+# Muted purple for match background
+background = "#936B9D"
+
+[colors.search.focused_match]
+# Dark text on light background
+foreground = "#1A101C"
+# Muted green (foliage/moss) for a different kind of focus
+background = "#82B366"
+
+[colors.footer_bar]
+foreground = "#1A101C"
+# Muted stone/grey for the bridge/statues
+background = "#A3A3B0"
+
+[colors.hints.start]
+foreground = "#1A101C"
+# A warm gold/yellow for a strong callout
+background = "#CFA060"
+
+[colors.hints.end]
+foreground = "#1A101C"
+# Muted stone/grey
+background = "#A3A3B0"
+
+[colors.selection]
+text = "#1A101C"
+# Muted Lavender/Purple for selection background
+background = "#936B9D"
+
+[colors.normal]
+# Very Dark Purple/Maroon for black (high contrast)
+black = "#1A101C"
+# Darker red from Zero Two's jacket
+red = "#D2435B"
+# Muted green (foliage/moss)
+green = "#82B366"
+# Warm gold/yellow (light reflections)
+yellow = "#CFA060"
+# Desaturated blue
+blue = "#6A8CBE"
+# Lavender/Purple from the blossoms
+magenta = "#936B9D"
+# Teal/Cyan (from the cool shadows in the image)
+cyan = "#6D9AA4"
+# Soft Dark Grey for white
+white = "#47464F"
+
+[colors.bright]
+# Soft Dark Grey for bright black
+black = "#47464F"
+# Bright pink for bright red
+red = "#FF6F9C"
+# Brighter green
+green = "#9DCB86"
+# Brighter gold
+yellow = "#EED18E"
+# Brighter blue
+blue = "#8BA1CD"
+# Brighter lavender
+magenta = "#A37CBB"
+# Brighter teal/cyan
+cyan = "#87B4BD"
+# Primary background color for bright white (for good visibility)
+white = "#A3A3B0"
+
+[[colors.indexed_colors]]
+index = 16
+# A secondary bright pink/red
+color = "#D2435B"
+
+[[colors.indexed_colors]]
+index = 17
+# A lighter pink/hair color
+color = "#FF9BAB"

@@ -1,0 +1,32 @@
+/* Omarchy Light Theme for walker/wlogout */
+
+@define-color selected-text #FF7F93;  /* Very Dark text on a bright highlight */
+@define-color text #1A101C;           /* Very Dark Purple/Maroon text */
+@define-color base #EEDDEE;           /* Soft Off-White/Pink for main area */
+@define-color border #936B9D;         /* Lavender/Purple (Accent) */
+@define-color foreground #1A101C;     /* Very Dark text/icons */
+@define-color background #EEDDEE;     /* Soft Off-White/Pink background */
+
+/* Example of applying the colors to a common element like the main window */
+#window {
+    background-color: @background;
+}
+
+/* Example of styling buttons/controls */
+button {
+    background-color: @base;
+    color: @text;
+    border: 2px solid @border;
+    border-radius: 8px;
+}
+
+/* Example of styling the selected button */
+button:hover {
+    background-color: @border; /* Use the accent color as a hover highlight */
+    color: @selected-text;     /* Dark text on the light accent */
+}
+
+/* Example of styling a label/text element */
+label {
+    color: @text;
+}

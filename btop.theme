@@ -1,0 +1,85 @@
+# Omarchy Theme for btop - Inspired by Zero Two Wallpaper (Dark/Moody)
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#1A101C"
+
+# Main text color
+theme[main_fg]="#EEDDEE"
+
+# Title color for boxes
+theme[title]="#FF6F9C"
+
+# Highlight color for keyboard shortcuts (Darker Jacket Red)
+theme[hi_fg]="#D2435B"
+
+# Background color of selected item in processes box (Soft Dark Grey)
+theme[selected_bg]="#47464F"
+
+# Foreground color of selected item in processes box (Lighter Pink)
+theme[selected_fg]="#FF9BAB"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#9D93A0"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling (Warm Gold)
+theme[graph_text]="#CFA060"
+
+# Background color of the percentage meters (Muted Stone/Grey)
+theme[meter_bg]="#5C5C68"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text (Lavender)
+theme[proc_misc]="#936B9D"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#936B9D" #Lavender
+theme[mem_box]="#D2435B" #Dark Red
+theme[net_box]="#CFA060" #Gold
+theme[proc_box]="#82B366" #Muted Green
+
+# Box divider line and small boxes line color
+theme[div_line]="#665C70"
+
+# Temperature graph color (Green -> Yellow -> Red)
+theme[temp_start]="#82B366" #Muted Green
+theme[temp_mid]="#CFA060" #Gold
+theme[temp_end]="#D2435B" #Dark Red
+
+# CPU graph colors (Cool Blue -> Lavender -> Pink)
+theme[cpu_start]="#6A8CBE"
+theme[cpu_mid]="#936B9D"
+theme[cpu_end]="#FF6F9C"
+
+# Mem/Disk free meter (Cool Blue -> Lavender -> Pink)
+theme[free_start]="#6A8CBE"
+theme[free_mid]="#936B9D"
+theme[free_end]="#FF6F9C"
+
+# Mem/Disk cached meter (Muted Teal -> Blue)
+theme[cached_start]="#6D9AA4"
+theme[cached_mid]="#6A8CBE"
+theme[cached_end]="#A37CBB"
+
+# Mem/Disk available meter (Gold -> Dark Red)
+theme[available_start]="#CFA060"
+theme[available_mid]="#D2435B"
+theme[available_end]="#FF6F9C"
+
+# Mem/Disk used meter (Muted Green -> Teal)
+theme[used_start]="#82B366"
+theme[used_mid]="#6D9AA4"
+theme[used_end]="#6A8CBE"
+
+# Download graph colors (Gold -> Dark Red)
+theme[download_start]="#CFA060"
+theme[download_mid]="#D2435B"
+theme[download_end]="#FF6F9C"
+
+# Upload graph colors (Muted Green -> Teal)
+theme[upload_start]="#82B366"
+theme[upload_mid]="#6D9AA4"
+theme[upload_end]="#6A8CBE"
+
+# Process box color gradient for threads, mem and cpu usage (Teal -> Lavender -> Pink)
+theme[process_start]="#6D9AA4"
+theme[process_mid]="#936B9D"
+theme[process_end]="#FF6F9C"
