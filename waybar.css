@@ -1,5 +1,4 @@
-@define-color foreground #EEDDEE; /* Soft Off-White/Pink (Text/Icons) */
-@define-color background #1A101C; /* Very Dark Purple/Maroon (Bar Background) */
-@define-color border     #47464F; /* Soft Dark Grey (Separators/Borders) */
-@define-color accent     #FF6F9C; /* Bright Pink (Primary Accent/Highlights) */
-@define-color primary  #936B9D; /* Lavender/Purple (Active Workspace Background) */
+@define-color foreground #4c4f69; /* text */
+@define-color background #eff1f5; /* base */
+@define-color border     #dce0e8; /* crust */
+@define-color accent     #1e66f5; /* blue */
