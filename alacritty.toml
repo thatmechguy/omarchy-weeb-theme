@@ -2,7 +2,7 @@
 
 [colors.primary]
 # Soft Off-White/Pink from light reflections on hair
-background = "#EEDDEE"
+background = "#F9EEEE"
 # Very dark maroon/purple from image shadows
 foreground = "#1A101C"
 dim_foreground = "#47464F" # Soft Dark Grey

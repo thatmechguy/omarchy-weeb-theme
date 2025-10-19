@@ -5,7 +5,7 @@
 @define-color base #EEDDEE;           /* Soft Off-White/Pink for main area */
 @define-color border #936B9D;         /* Lavender/Purple (Accent) */
 @define-color foreground #1A101C;     /* Very Dark text/icons */
-@define-color background #EEDDEE;     /* Soft Off-White/Pink background */
+@define-color background #F9EEEE;     /* Soft Off-White/Pink background */
 
 /* Example of applying the colors to a common element like the main window */
 #window {
